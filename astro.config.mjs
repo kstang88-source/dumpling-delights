@@ -1,9 +1,8 @@
+import { defineConfig } from "astro/config";
+
 export default defineConfig({
-  output: 'server',
-  adapter: cloudflare(),
-  image: {
-    service: 'compile',
-  },
+  output: "static",
 });
+
 
 
