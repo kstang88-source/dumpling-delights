@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Dumpling Delights | Handmade Frozen Dumplings"
+  description="Handmade frozen dumplings from 老四饺子 since 2018. Authentic flavors crafted for the world."
+>
+  <section class="max-w-6xl mx-auto p-8 grid md:grid-cols-2 gap-8 items-center">
+    <div>
+      <h1 class="text-4xl font-bold mb-4">
+        Handmade Frozen Dumplings<br />Crafted for the World
+      </h1>
+      <p class="text-gray-700 mb-6">
+        From 老四饺子 since 2018, Dumpling Delights brings authentic handmade
+        frozen dumplings to customers worldwide.
+      </p>
+      <a
+        href="/menu"
+        class="inline-block bg-black text-white px-6 py-3 rounded font-semibold hover:bg-gray-800"
+      >
+        View Our Dumplings
+      </a>
+    </div>
+
+    <img
+      src="/images/products/hero-shrimp-pork-fried.jpg"
+      alt="Pan-fried shrimp and pork dumplings"
+      class="rounded-lg shadow-lg"
+      loading="eager"
+    />
+  </section>
+</BaseLayout>
